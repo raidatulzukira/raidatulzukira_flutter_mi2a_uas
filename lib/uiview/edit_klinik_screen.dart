@@ -114,7 +114,11 @@ class _EditKlinikScreenState extends State<EditKlinikScreen> {
                   CircleAvatar(
                     radius: 50,
                     backgroundColor: Colors.teal,
-                    child: Icon(Icons.school, size: 50, color: Colors.white),
+                    child: Icon(
+                      Icons.health_and_safety,
+                      size: 50,
+                      color: Colors.white,
+                    ),
                   ),
                   SizedBox(height: 20),
                   Text(
@@ -129,7 +133,7 @@ class _EditKlinikScreenState extends State<EditKlinikScreen> {
                   buildInput(
                     namaController,
                     'Nama Klinik',
-                    Icons.school,
+                    Icons.health_and_safety,
                     Colors.pink,
                   ),
                   buildInput(

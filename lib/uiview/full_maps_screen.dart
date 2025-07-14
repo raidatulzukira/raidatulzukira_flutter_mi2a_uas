@@ -51,7 +51,7 @@ class _FullMapsScreenState extends State<FullMapsScreen> {
       body: Stack(
         children: [
           GoogleMap(
-            initialCameraPosition: CameraPosition(target: posisi, zoom: 15),
+            initialCameraPosition: CameraPosition(target: posisi, zoom: 18),
             markers: {
               Marker(
                 markerId: MarkerId('klinik-${widget.klinik.id}'),

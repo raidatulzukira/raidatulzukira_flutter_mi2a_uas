@@ -90,7 +90,10 @@ class _ListKlinikScreenState extends State<ListKlinikScreen> {
                             child: ListTile(
                               leading: CircleAvatar(
                                 backgroundColor: Colors.teal,
-                                child: Icon(Icons.school, color: Colors.white),
+                                child: Icon(
+                                  Icons.health_and_safety,
+                                  color: Colors.white,
+                                ),
                               ),
                               title: Text(
                                 klinik.namaKlinik,

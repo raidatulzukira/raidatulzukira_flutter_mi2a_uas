@@ -67,7 +67,7 @@ flutter:
   assets:
      - assets/style_map/style_dark.json
      - assets/style_map/style_retro.json
-     - assets/images/klinik.png
+     - assets/images/kliniklogo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

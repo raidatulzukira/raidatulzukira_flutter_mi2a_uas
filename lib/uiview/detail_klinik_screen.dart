@@ -67,7 +67,11 @@ class DetailKlinikScreen extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               backgroundColor: Colors.teal,
-              child: Icon(Icons.school, size: 50, color: Colors.white),
+              child: Icon(
+                Icons.health_and_safety,
+                size: 50,
+                color: Colors.white,
+              ),
             ),
             SizedBox(height: 20),
             Card(
@@ -91,7 +95,7 @@ class DetailKlinikScreen extends StatelessWidget {
                     buildDetailRow(
                       'Nama Klinik',
                       klinik.namaKlinik,
-                      Icons.school,
+                      Icons.health_and_safety,
                       Colors.deepPurple,
                     ),
                     Divider(),

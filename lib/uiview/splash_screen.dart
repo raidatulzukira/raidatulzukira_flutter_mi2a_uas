@@ -33,7 +33,7 @@ class SplashScreen extends StatelessWidget {
                 ),
                 padding: const EdgeInsets.all(15),
                 child: Image.asset(
-                  'assets/images/klinik.png',
+                  'assets/images/kliniklogo.png',
                   width: 190,
                   height: 190,
                   fit: BoxFit.contain,
